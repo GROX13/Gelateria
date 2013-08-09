@@ -1,7 +1,7 @@
 package lab.np.dpsamples;
 
 /**
- * Adds some cognac to ice cream.
+ * Adds a little cognac to ice cream.
  * Concrete decorator implementation
  */
 public class CognacDecorator extends GelatoDecorator {

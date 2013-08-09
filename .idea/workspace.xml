@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="235e4cc4-f29f-46a8-97db-a179ce34f907" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab/np/dpsamples/Main.java" afterPath="$PROJECT_DIR$/src/lab/np/dpsamples/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="235e4cc4-f29f-46a8-97db-a179ce34f907" name="Default" comment="" />
     <ignored path="Gelateria.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gelato.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1375909726221" ignored="false" />
@@ -17,10 +14,11 @@
     <file path="/Vanila.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1375729671145" ignored="false" />
     <file path="/SourCherrySauce.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376081510150" ignored="false" />
     <file path="/Dummy.txt" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376076098347" ignored="false" />
-    <file path="/CognacDecorator.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376085764034" ignored="false" />
+    <file path="/CognacDecorator.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376085979712" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376076395851" ignored="false" />
     <file path="/GelatoFactory.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376083682613" ignored="false" />
     <file path="/Coffee.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376084398439" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376085982006" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
       <file leaf-file-name="CognacDecorator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/CognacDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="26" selection-start="351" selection-end="351" vertical-scroll-proportion="0.5798923">
+            <state line="3" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="0.091561936">
               <folding />
             </state>
           </provider>
@@ -569,7 +567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/CognacDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="351" selection-end="351" vertical-scroll-proportion="0.5798923">
+        <state line="3" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="0.091561936">
           <folding />
         </state>
       </provider>
