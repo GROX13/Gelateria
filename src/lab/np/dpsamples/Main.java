@@ -1,5 +1,12 @@
+
 /*
-	Amarena: Fior di Latte blended with a sour cherry sauce
+    Amarena: Fior di Latte blended with a sour cherry sauce
+    Vaniglia: Vanilla
+    Stracciatella: Fior di Latte with veins of chocolate
+* */
+
+/*
+
 Bacio: Hazelnut
 Caffè: Coffee
 Cannella: A lightly cinnamon-flavored gelato
@@ -19,9 +26,7 @@ Pesca: Peach
 Pistacchio: Pistachio
 Puffo: A blue, anise-flavored gelato
 Riso: Gelato with bits of rice; like a rice pudding
-Stracciatella: Fior di Latte with veins of chocolate
 Tiramisù: Gelato version of the Italian dessert
-Vaniglia: Vanilla
 Zuppa Inglese: Cookies and sherry are mixed into a custard-flavored gelato
 	* */
 
@@ -31,15 +36,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Gelato fiorDiLatte = new FiorDiLatte();
-        Gelato amarena = new SourCherrySauce(fiorDiLatte);
-        Gelato stracciatella = new VeinsOfChocolate(fiorDiLatte);
-        Gelato vaniglia = new Vaniglia();
-        CompositeGelato misto = new CompositeGelato();
-        misto.add(amarena);
-        misto.add(vaniglia);
-        misto.add(stracciatella);
+        Gelato amarena = GelatoFactory.makeAmarena();
+        Gelato stracciatella = GelatoFactory.createStracciatella();
+        Gelato vanillaWithCognac = GelatoFactory.createVaniglia();
 
-        System.out.println(misto.describe());
+        vanillaWithCognac = new CognacDecorator(vanillaWithCognac);
+
+        Gelato amarenaAndVanillaWithCognac = GelatoFactory.createMix(amarena, vanillaWithCognac);
+
+        System.out.println(stracciatella);
+        System.out.println(amarenaAndVanillaWithCognac.describe());
     }
 }

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="235e4cc4-f29f-46a8-97db-a179ce34f907" name="Default" comment="" />
+    <list default="true" id="235e4cc4-f29f-46a8-97db-a179ce34f907" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lab/np/dpsamples/GelatoFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab/np/dpsamples/CompositeGelato.java" afterPath="$PROJECT_DIR$/src/lab/np/dpsamples/CompositeGelato.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lab/np/dpsamples/SourCherrySauce.java" afterPath="$PROJECT_DIR$/src/lab/np/dpsamples/SourCherrySauce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Gelateria.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gelato.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1375909726221" ignored="false" />
@@ -9,14 +14,15 @@
     <file path="/fragment.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1375729715509" ignored="false" />
     <file path="/VeinsOfChocolate.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1375733477378" ignored="false" />
     <file path="/FiorDiLatte.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1375543189948" ignored="false" />
-    <file path="/Main.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1375733739625" ignored="false" />
-    <file path="/CompositeGelato.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376077447920" ignored="false" />
+    <file path="/Main.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376084589194" ignored="false" />
+    <file path="/CompositeGelato.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376078713444" ignored="false" />
     <file path="/Vanila.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1375729671145" ignored="false" />
-    <file path="/SourCherrySauce.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1375733610177" ignored="false" />
+    <file path="/SourCherrySauce.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376081510150" ignored="false" />
     <file path="/Dummy.txt" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376076098347" ignored="false" />
     <file path="/CognacDecorator.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1375910840912" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376076395851" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376078324433" ignored="false" />
+    <file path="/GelatoFactory.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376083682613" ignored="false" />
+    <file path="/Coffee.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376084398439" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +86,7 @@
       <file leaf-file-name="Gelato.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/Gelato.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+            <state line="5" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,10 +101,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompositeGelato.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CompositeGelato.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/CompositeGelato.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="83" selection-end="83" vertical-scroll-proportion="0.18312387">
+            <state line="8" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#179#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="40" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.7863555">
+              <folding>
+                <element signature="e#0#1366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Coffee.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/Coffee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="58" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GelatoFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/GelatoFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="64" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="docComment;method#createStracciatella#0;class#GelatoFactory#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SourCherrySauce.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/SourCherrySauce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="30" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,14 +180,16 @@
         <option value="$PROJECT_DIR$/src/lab/np/dpsamples/Vanila.java" />
         <option value="$PROJECT_DIR$/src/lab/np/dpsamples/Vaniglia.java" />
         <option value="$PROJECT_DIR$/src/lab/np/dpsamples/VeinsOfChocolate.java" />
-        <option value="$PROJECT_DIR$/src/lab/np/dpsamples/SourCherrySauce.java" />
-        <option value="$PROJECT_DIR$/src/lab/np/dpsamples/Main.java" />
         <option value="$PROJECT_DIR$/src/lab/np/dpsamples/FiorDiLatte.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/lab/np/dpsamples/GelatoDecorator.java" />
         <option value="$PROJECT_DIR$/src/lab/np/dpsamples/Gelato.java" />
         <option value="$PROJECT_DIR$/src/lab/np/dpsamples/CognacDecorator.java" />
         <option value="$PROJECT_DIR$/src/lab/np/dpsamples/CompositeGelato.java" />
+        <option value="$PROJECT_DIR$/src/lab/np/dpsamples/SourCherrySauce.java" />
+        <option value="$PROJECT_DIR$/src/lab/np/dpsamples/GelatoFactory.java" />
+        <option value="$PROJECT_DIR$/src/lab/np/dpsamples/Coffee.java" />
+        <option value="$PROJECT_DIR$/src/lab/np/dpsamples/Main.java" />
       </list>
     </option>
   </component>
@@ -323,17 +373,18 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -341,13 +392,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -420,34 +470,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/CognacDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="60" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/Gelato.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/CognacDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="60" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/CompositeGelato.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/GelatoDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="5" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
@@ -498,13 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/Gelato.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gelateria.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="44" selection-start="425" selection-end="425" vertical-scroll-proportion="0.36624774" />
@@ -517,10 +532,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/SourCherrySauce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="30" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/GelatoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="64" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="docComment;method#createStracciatella#0;class#GelatoFactory#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/CompositeGelato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="83" selection-end="83" vertical-scroll-proportion="0.18312387">
+        <state line="8" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#179#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/Gelato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="58" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="40" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.7863555">
+          <folding>
+            <element signature="e#0#1366#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -23,10 +23,18 @@ public class CompositeGelato implements Gelato {
         return output.toString();
     }
 
+    /**
+     * Adds gelato to mix
+     * @param gelato
+     */
     public void add(Gelato gelato) {
         this.mix.add(gelato);
     }
 
+    /**
+     * Removes gelato from mix
+     * @param gelato
+     */
     public void remove(Gelato gelato) {
         this.mix.remove(gelato);
     }
