@@ -11,6 +11,6 @@ public class CognacDecorator extends GelatoDecorator {
 
     @Override
     public String describe() {
-        return super.describe() + " with cognac";
+        return super.describe() + " blended with cognac";
     }
 }
