@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 
 /**
- * Document it
+ * Composite ice cream
  */
 public class CompositeGelato implements Gelato {
 
