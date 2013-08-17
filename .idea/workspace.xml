@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="235e4cc4-f29f-46a8-97db-a179ce34f907" name="Default" comment="" />
+    <list default="true" id="235e4cc4-f29f-46a8-97db-a179ce34f907" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Gelateria.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gelato.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376748192528" ignored="false" />
@@ -15,7 +17,6 @@
     <file path="/SourCherrySauce.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376752517784" ignored="false" />
     <file path="/Dummy.txt" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376732599426" ignored="false" />
     <file path="/CognacDecorator.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376751728673" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376076395851" ignored="false" />
     <file path="/GelatoFactory.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376751048748" ignored="false" />
     <file path="/Coffee.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376751599167" ignored="false" />
     <file path="/FiorDiLatteGelato.java" changelist="235e4cc4-f29f-46a8-97db-a179ce34f907" time="1376741245920" ignored="false" />
@@ -108,7 +109,7 @@
       <file leaf-file-name="GelatoFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/GelatoFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="107" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+            <state line="33" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="docComment;method#makeVaniglia#0;class#GelatoFactory#0" expanded="false" />
                 <element signature="method#makeVaniglia#0;class#GelatoFactory#0" expanded="false" />
@@ -242,8 +243,36 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dpsamples" />
+              <option name="myItemId" value="Gelateria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gelateria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gelateria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gelateria" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dictionaries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,7 +386,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -378,7 +407,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -554,7 +583,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab/np/dpsamples/GelatoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="107" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+        <state line="33" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="docComment;method#makeVaniglia#0;class#GelatoFactory#0" expanded="false" />
             <element signature="method#makeVaniglia#0;class#GelatoFactory#0" expanded="false" />
