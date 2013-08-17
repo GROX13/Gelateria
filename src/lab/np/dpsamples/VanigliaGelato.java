@@ -12,6 +12,6 @@ public class VanigliaGelato implements Gelato {
      */
     @Override
     public String describe() {
-        return "Vanilla";
+        return "Vanilla gelato";
     }
 }

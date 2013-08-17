@@ -37,6 +37,7 @@ public class Main {
 
         Gelato amarena = GelatoFactory.makeAmarena();
         Gelato stracciatella = GelatoFactory.makeStracciatella();
+        Gelato affogatoAlCaffe = GelatoFactory.makeAffogatoAlCaffe();
         Gelato vanillaWithCognac = GelatoFactory.makeVaniglia();
 
         vanillaWithCognac = new Cognac(vanillaWithCognac);
@@ -44,6 +45,7 @@ public class Main {
         Gelato amarenaAndVanillaWithCognac = GelatoFactory.createMix(amarena, vanillaWithCognac);
 
         System.out.println(stracciatella.describe());
+        System.out.println(affogatoAlCaffe.describe());
         System.out.println(amarenaAndVanillaWithCognac.describe());
     }
 }
