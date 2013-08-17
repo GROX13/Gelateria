@@ -1,10 +1,15 @@
 package lab.np.dpsamples;
 
 /**
- * Sour cherry sauce decorator
+ * Adds sour cherry sauce to gelato
+ * Concrete decorator implementation
  */
 public class SourCherrySauce extends GelatoDecorator{
 
+    /**
+     * Initializes instance of sour cherry sauce decorator
+     * @param gelato
+     */
     public SourCherrySauce(Gelato gelato) {
         super(gelato);
     }

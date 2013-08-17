@@ -4,12 +4,19 @@ import java.util.ArrayList;
 
 
 /**
- * Composite ice cream
+ * Gelato misto (mixed)
+ * Safe implementation of composite pattern
  */
 public class CompositeGelato implements Gelato {
 
     ArrayList<Gelato> mix = new ArrayList<Gelato>();
 
+    /**
+     * Describes gelato misto (mixed)
+     *
+     * @return The description of gelato misto
+     */
+    @Override
     public String describe() {
         StringBuilder output = new StringBuilder(mix.size() * 15);
 
@@ -25,6 +32,7 @@ public class CompositeGelato implements Gelato {
 
     /**
      * Adds gelato to mix
+     *
      * @param gelato
      */
     public void add(Gelato gelato) {
@@ -33,6 +41,7 @@ public class CompositeGelato implements Gelato {
 
     /**
      * Removes gelato from mix
+     *
      * @param gelato
      */
     public void remove(Gelato gelato) {
