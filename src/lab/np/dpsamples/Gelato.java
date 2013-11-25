@@ -16,7 +16,7 @@ package lab.np.dpsamples;
 public interface Gelato {
 
     /**
-     * Used to describes the gelato
+     * Used to describe the gelato
      *
      * @return The description of gelato
      */
